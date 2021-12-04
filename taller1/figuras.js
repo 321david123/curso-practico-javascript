@@ -126,3 +126,29 @@ function calcularAreaCirculo(){
     const area = areaCirculo(radio);
     alert(area);
 }
+
+// RETO
+// Triangulo isosceles - calcular altura
+  
+const calcularbase = function (base) {
+    return base / 2;
+}
+const calcularCuadrado1 = function(base) {
+    calcularbase(base);
+    return Math.pow(base, 2);
+}
+const calcularCuadrado2 = function(lados) {
+    Math.pow(lados, 2)
+}
+function calculate(basea, ladosa) {
+    return calcularCuadrado2(ladosa) - calcularCuadrado1(basea);
+}
+function calcularAlturaIso() {
+    const input = document.getElementById("InputTrianguloIso");
+    const ladosa = input.value;
+    const inputbase = document.getElementById("InputTrianguloIsobase");
+    const basea = inputbase.value;
+
+    const altura = calculate(basea, ladosa);
+    alert(altura);
+}
