@@ -47,8 +47,8 @@ if(esPar(listaOrdenada.length)) {
 } else {
     mediana = listaOrdenada[mitadlista];
 }
-const mostrarResultado = document.getElementById("resultadoMediana");
-mostrarResultado.innerText = "La mediana es de: " + mediana;
+    const mostrarResultado = document.getElementById("resultadoMediana");
+    mostrarResultado.innerText = "La mediana es de: " + mediana;
 }
 
-    
+
