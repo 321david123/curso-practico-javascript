@@ -51,4 +51,5 @@ function calcularMediaAritmetica() {
   // console.log(lista.length);
   const mostrarResultado = document.getElementById("resultadoPromedio");
   mostrarResultado.innerText = "El promedio es de: " + promedioLista;
+  document.getElementById("prueba").innerText = ("HOLA");
 }

@@ -90,12 +90,13 @@ function calcularAreaCuadrado(){
 // Triangulo
 function calcularPerimetroTriangulo(){
     const input1 = document.getElementById("InputTriangulo");
+    // console.log(input1);
     const input2 = document.getElementById("InputTriangulo2");
     const input3 = document.getElementById("InputTriangulo3");
     const lado1 = input1.value;
     const lado2 = input2.value;
     const base = input3.value;
-
+    // console.log(lado1);
     const perimetro = perimetroTriangulo(+lado1, +lado2, +base);
     alert(perimetro);
 }
